@@ -2884,6 +2884,7 @@ dependencies = [
 [[package]]
 name = "psm"
 version = "0.1.23"
+source = "git+https://github.com/zetanumbers/stacker.git?branch=rustc-fibers#019e78c34ac49acec12dd4b6fbe154e743c09da3"
 dependencies = [
  "cc",
 ]
@@ -3250,6 +3251,7 @@ dependencies = [
  "crossbeam-channel",
  "crossbeam-deque",
  "crossbeam-utils",
+ "lock_api",
  "num_cpus",
  "rustc-corosensei",
 ]
@@ -3263,6 +3265,7 @@ checksum = "2febf9acc5ee5e99d1ad0afcdbccc02d87aa3f857a1f01f825b80eacf8edfcd1"
 [[package]]
 name = "rustc-stacker"
 version = "0.1.17"
+source = "git+https://github.com/zetanumbers/stacker.git?branch=rustc-fibers#019e78c34ac49acec12dd4b6fbe154e743c09da3"
 dependencies = [
  "cc",
  "cfg-if",
@@ -3626,6 +3629,7 @@ dependencies = [
  "portable-atomic",
  "rustc-hash 2.1.0",
  "rustc-rayon",
+ "rustc-rayon-core",
  "rustc-stable-hash",
  "rustc-stacker",
  "rustc_arena",
